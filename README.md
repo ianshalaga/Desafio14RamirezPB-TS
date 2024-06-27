@@ -4,6 +4,16 @@ Catorceavo desafío entregable del curso de Programación Backend de CoderHouse.
 
 ## Consigna
 
+Realizar módulos de **testing** para tu proyecto principal, utilizando los módulos de **mocha**, **chai** y **supertest**.
+
+- Se deben incluir por lo menos 3 **tests** desarrollados para:
+
+  - **Router** de **products**.
+  - **Router** de **carts**.
+  - **Router** de **sessions**.
+
+- No desarrollar únicamente **tests** de **status**, la idea es trabajar lo mejor posible desarrollando las validaciones de **testing**.
+
 ## Entrega
 
 Enlace al repositorio de **GitHub** con el proyecto completo, sin la carpeta de **node_modules**.

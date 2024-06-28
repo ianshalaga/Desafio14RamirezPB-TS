@@ -2,7 +2,18 @@
   "compilerOptions": {
     "esModuleInterop": true,
     "module": "ESNext",
-    "moduleResolution": "Node",
-    "target": "ESNext"
+    "target": "ESNext",
+    "moduleResolution": "Node"
+    // "strict": true,
+    // "resolveJsonModule": true,
+    // "skipLibCheck": true,
+    // "forceConsistentCasingInFileNames": true
   }
+  // "include": [
+  //   "src/**/*.ts", // Incluir todos los archivos TypeScript dentro de src/
+  //   "test/**/*.ts" // Incluir todos los archivos de prueba TypeScript dentro de test/
+  // ],
+  // "exclude": [
+  //   "node_modules" // Excluir la carpeta node_modules para la compilación
+  // ]
 }

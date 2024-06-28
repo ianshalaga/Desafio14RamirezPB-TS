@@ -118,6 +118,15 @@ Enlace al repositorio de **GitHub** con el proyecto completo, sin la carpeta de 
 
 > **Nodemon** reinicia automáticamente el servidor en cuanto detecta que hay cambios en el código.
 
+- `npm i tailwindcss -D`
+- `npm i @tailwindcss/forms -D` (Conjunto de estilos predefinidos diseñados específicamente para mejorar el aspecto y la funcionalidad de los formularios **HTML**)
+
+> Styles: **TailwindCSS**
+
+- `npm i mocha -D`
+
+> **Mocha** es un **framework** de pruebas para **JavaScript** que se ejecuta en **Node.js** y en el navegador. Proporciona un entorno simple para escribir y ejecutar pruebas unitarias y de integración.
+
 - `npm i typescript -D` (Compilador de **TypeScript**)
 - `npm i tsx -D` (Motor de ejecución de **TypeScript** para paquetes de tipo **module**)
 - `npm i @types/node -D` (Definiciones de tipos de **TypeScript** para **Node.js**)
@@ -131,13 +140,9 @@ Enlace al repositorio de **GitHub** con el proyecto completo, sin la carpeta de 
 - `npm i @types/nodemailer -D` (Definiciones de tipos de **TypeScript** para **nodemailer**)
 - `npm i @types/swagger-jsdoc -D` (Definiciones de tipos de **TypeScript** para **swagger-jsdoc**)
 - `npm i @types/swagger-ui-express -D` (Definiciones de tipos de **TypeScript** para **swagger-ui-express**)
+- `npm i @types/mocha -D` (Definiciones de tipos de **TypeScript** para **mocha**)
 
 > **TypeScript** dependencies.
-
-- `npm i tailwindcss -D`
-- `npm i @tailwindcss/forms -D` (Conjunto de estilos predefinidos diseñados específicamente para mejorar el aspecto y la funcionalidad de los formularios **HTML**)
-
-> Styles: **TailwindCSS**
 
 ## package.json
 

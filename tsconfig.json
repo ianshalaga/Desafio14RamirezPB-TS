@@ -1,19 +1,21 @@
 {
   "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "lib": ["es2017"],
+    "outDir": "./dist",
+    "strict": true,
     "esModuleInterop": true,
-    "module": "ESNext",
-    "target": "ESNext",
-    "moduleResolution": "Node"
-    // "strict": true,
-    // "resolveJsonModule": true,
-    // "skipLibCheck": true,
-    // "forceConsistentCasingInFileNames": true
-  }
-  // "include": [
-  //   "src/**/*.ts", // Incluir todos los archivos TypeScript dentro de src/
-  //   "test/**/*.ts" // Incluir todos los archivos de prueba TypeScript dentro de test/
-  // ],
-  // "exclude": [
-  //   "node_modules" // Excluir la carpeta node_modules para la compilación
-  // ]
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "alwaysStrict": true,
+    "rootDir": ".",
+    "moduleResolution": "node",
+    "baseUrl": "./src"
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "distBE"]
 }

@@ -15,6 +15,7 @@ class Mocking {
       category: faker.commerce.department(),
       status: faker.datatype.boolean(),
       thumbnail: [faker.image.url()],
+      owner: faker.datatype.boolean() ? faker.internet.email() : "admin",
     };
     return dbProduct;
   }

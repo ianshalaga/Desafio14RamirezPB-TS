@@ -13,7 +13,7 @@ import config from "./config/env.config";
 
 const PORT = config.port;
 
-const app: Express = express(); // Express.js application instance creation
+export const app: Express = express(); // Express.js application instance creation
 
 // Express.js server start
 const httpServer = app.listen(PORT, () =>

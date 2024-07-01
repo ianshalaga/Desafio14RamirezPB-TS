@@ -8,9 +8,9 @@ Realizar módulos de **testing** para tu proyecto principal, utilizando los mód
 
 - Se deben incluir por lo menos 3 **tests** desarrollados para:
 
-  - **Router** de **products**.
-  - **Router** de **carts**.
-  - **Router** de **sessions**.
+  - [x] **Router** de **products**.
+  - [x] **Router** de **carts**.
+  - [x] **Router** de **sessions**.
 
 - No desarrollar únicamente **tests** de **status**, la idea es trabajar lo mejor posible desarrollando las validaciones de **testing**.
 
@@ -127,6 +127,14 @@ Enlace al repositorio de **GitHub** con el proyecto completo, sin la carpeta de 
 
 > **Mocha** es un **framework** de pruebas para **JavaScript** que se ejecuta en **Node.js** y en el navegador. Proporciona un entorno simple para escribir y ejecutar pruebas unitarias y de integración.
 
+- `npm i chai -D`
+
+> **Chai** es una biblioteca de aserciones (**assertions**) para **JavaScript** y **Node.js** que se utiliza comúnmente en entornos de pruebas como **Mocha** y otros **frameworks** de pruebas. Esta biblioteca proporciona un conjunto de métodos que facilitan la escritura de afirmaciones (**assertions**) más expresivas y legibles dentro de tus pruebas.
+
+- `npm install supertest -D`
+
+> **Supertest** es una biblioteca para realizar pruebas **HTTP** en aplicaciones **Node.js**. Se utiliza principalmente para probar servidores **HTTP** como los construidos con **Express.js**, **Koa**, y otros **frameworks** similares. **Supertest** facilita la simulación de solicitudes **HTTP** y la validación de las respuestas, lo que ayuda a garantizar que tu **API** o servidor se comporte como se espera.
+
 - `npm i typescript -D` (Compilador de **TypeScript**)
 - `npm i tsx -D` (Motor de ejecución de **TypeScript** para paquetes de tipo **module**)
 - `npm i @types/node -D` (Definiciones de tipos de **TypeScript** para **Node.js**)
@@ -141,6 +149,8 @@ Enlace al repositorio de **GitHub** con el proyecto completo, sin la carpeta de 
 - `npm i @types/swagger-jsdoc -D` (Definiciones de tipos de **TypeScript** para **swagger-jsdoc**)
 - `npm i @types/swagger-ui-express -D` (Definiciones de tipos de **TypeScript** para **swagger-ui-express**)
 - `npm i @types/mocha -D` (Definiciones de tipos de **TypeScript** para **mocha**)
+- `npm i @types/chai -D` (Definiciones de tipos de **TypeScript** para **chai**)
+- `npm i @types/supertest -D` (Definiciones de tipos de **TypeScript** para **supertest**)
 
 > **TypeScript** dependencies.
 

@@ -1,21 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es2016",
-    "module": "commonjs",
-    "lib": ["es2017"],
-    "outDir": "./dist",
-    "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true,
-    "experimentalDecorators": true,
-    "strictPropertyInitialization": false,
-    "emitDecoratorMetadata": true,
-    "forceConsistentCasingInFileNames": true,
-    "alwaysStrict": true,
-    "rootDir": ".",
-    "moduleResolution": "node",
-    "baseUrl": "./src"
-  },
-  "include": ["**/*.ts"],
-  "exclude": ["node_modules", "distBE"]
+    "module": "ESNext",
+    "moduleResolution": "Node"
+  }
 }
